@@ -43,7 +43,7 @@ ai-video-streaming-platform/
 │── monitoring/              # Prometheus, Grafana, Logging setup
 │── testing/                 # Automated unit & integration tests
 │── docs/                    # API documentation & project guides
-│── README.md                # Full documentation for recruiters
+│── README.md                # Full documentation 
 │── .gitignore
 │── docker-compose.yml       # Local testing setup
 │── next.config.js           # Next.js configuration
