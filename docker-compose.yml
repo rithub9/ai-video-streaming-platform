@@ -1,1 +1,20 @@
-docker-compose.yml
+version: '3.8'
+services:
+  backend:
+    build: ./backend/video-service
+    ports:
+      - "8002:8002"
+    depends_on:
+      - mongo
+  auth:
+    build: ./backend/auth-service
+    ports:
+      - "8001:8001"
+  recommendation:
+    build: ./backend/recommendation-service
+    ports:
+      - "8003:8003"
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
