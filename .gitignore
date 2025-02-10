@@ -1,1 +1,6 @@
-.gitignore
+node_modules/
+.env
+*.pyc
+__pycache__/
+terraform.tfstate
+terraform.tfstate.backup
