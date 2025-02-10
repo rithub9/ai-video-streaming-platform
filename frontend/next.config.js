@@ -1,1 +1,3 @@
-to do
+module.exports = {
+  reactStrictMode: true,
+};
